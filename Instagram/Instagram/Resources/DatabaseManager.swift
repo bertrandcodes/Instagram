@@ -14,5 +14,12 @@ public class DatabaseManager {
     
     // Mark: - Public
     
+    /// Check if username and email is availabe
+    /// - Parameters
+    ///     - email: String representing email
+    ///     
+    public func canCreateNewUser(with email: String, username: String, completion: (Bool) -> Void) {
+        
+    }
 
 }
